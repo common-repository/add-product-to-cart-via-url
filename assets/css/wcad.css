@@ -1,0 +1,47 @@
+.setRow
+{
+    width: 100%;
+    margin: 0.5em 0;
+}
+.setCol{
+    margin: 0.5em 0;
+    display: inline-block;
+}
+select{
+    width: 80%;
+    margin: 0.5em 0 !important;
+}
+input.prod_url_qty,
+.wcad_remove_input {
+    padding: 0.6em;
+    max-width: 75px;
+    margin: 0.5em 0;
+    float: right;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+}
+#wcad_simple_new_product{
+    width: 100%;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+#wcad_grouped_new_product,#wcad_variable_new_product{display: none;}
+#wcad_variable_submit_product_url_list,#variable_urlHolder{display: none;}
+h2{text-transform: capitalize !important;margin-top: 0 !important;}
+.productFormWrapper {
+    border: 2px solid #ddd;
+    padding: 2em;
+    border-radius: 20px;
+    margin: 1em 0;
+}
+@media (max-width: 768px) {
+    select.prod_url_select {
+        width: 70%;
+    }
+}
+.wcadHide{display: none;}
